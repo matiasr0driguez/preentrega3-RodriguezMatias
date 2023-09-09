@@ -1,0 +1,303 @@
+*
+    margin: 0
+    padding: 0
+    font-family: 'Mukta', sans-serif
+    font-family: 'Anton', sans-serif
+    font-family: 'Mukta', sans-serif
+    font-family: 'Tilt Prism', cursive
+main
+    background-color: black
+header
+    background-color: black
+    padding-bottom: 60px
+    nav
+        ul
+            display: flex
+            justify-content: space-between
+            li
+                margin-top: 30px
+                margin-left: 10%
+                margin-right: 15%
+                list-style: none
+                a
+                    text-decoration-line: none
+                    h2
+                        font-size: 35px
+                        color: gold
+                        text-decoration: none
+                        font-family: 'Anton', sans-serif
+                    .link
+                        border: 5px solid 
+a
+    text-decoration-line: none
+    h1
+        color: #FA6000
+        background-color: black
+        text-align: center
+        font-size: 110px
+        font-family: 'Tilt Prism'
+    h1:hover
+        text-decoration: underline
+/*pginas 1 2 3*/
+.grid-container 
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-gap: 10px
+    background-color: #dadada
+    .grid-item 
+        background-color: #ff7b0093
+        font-size: 20px
+        margin: 70px
+        border: 5px solid
+        height: 1050px
+        width: 500px
+        border-radius: 15px
+        box-shadow: 10px 10px 10px black
+        a
+            color: black
+            text-decoration-color: none
+            text-align: center
+h2
+    font-size: 40px
+    font-family: 'Tilt Prism'
+h2:hover
+    font-size: 50px
+    text-decoration: underline
+h3
+    font-size: 30px
+    font-family: 'Anton', sans-serif
+    text-align: center
+    color: #696969
+    text-decoration: underline
+dl
+    dd
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        text-align: center
+footer
+    background-color: black
+    width: 100%
+    height: 200px
+    margin-top: -30px
+    div
+        ul
+            display: flex
+            justify-content: space-between
+            margin-top: 20px
+            padding-top: 70px
+            li
+                font-size: 40px
+                list-style: none
+                margin-left: 20%
+                margin-right: 20%
+                a
+                    color: white
+                a:hover
+                    color: blueviolet
+                    i
+                        font-family: Arial, Helvetica, sans-serif
+                    i:hover 
+                        color: blueviolet
+/*Top*/
+.div-container
+    background-color:  #b9b9b9
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 50px
+    .top
+        h2
+            font-size: 70px
+            text-align: center
+            color: black
+            border: 1px solid
+            margin-bottom: 64px
+            border-radius: 10px
+            padding: 20px
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    .top1
+        padding: 60px
+        text-align: center
+        #oro:hover
+            color: gold
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            text-decoration: underline
+    .top2
+        padding: 50px
+        #plata:hover
+            color: grey
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            text-decoration: underline
+    .top3
+        padding: 50px
+        #bronce:hover
+            color: #d44e00
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            text-decoration: underline
+    .tamaño-img
+        align-items: center
+        height: 550px
+        width: 450px
+    .tamaño-img:hover
+        transform: scale(1.2)
+/*Recomendaciones*/
+#fondo-reco
+    text-align: center
+    padding: 80px
+    background-color: #a3a3a39f
+    .reco-container
+        display: flex
+        flex-direction: column
+        padding: 50px
+        align-items: center
+        a
+            color: black
+            h4
+                font-size: 35px
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            h4:hover
+                font-size: 45px
+                text-decoration: underline
+                color: gold
+                border: 2px solid
+                padding: 5px
+        #portada-reco
+            margin-top: 50px
+            height: 600px
+            width: 500px
+            align-items: center
+        #portada-reco:hover
+            transform: scale(1.2)
+    /*@ media Inicio  no adapte a todos los tamaños de pantalla*/     
+@media screen and (max-width: 480px)
+    header
+        width: 480px
+        nav
+            ul
+                display: flex
+                flex-direction: column
+                li
+                    margin-top: 35px
+                    margin-right: 550px
+                    text-align: start
+    a
+        h1
+            padding-top: 30px
+            font-size: 60px
+            margin-right: 250px
+            margin-left: 60px
+    .grid-container 
+        display: grid
+        grid-template-columns: repeat(1, 1fr)
+        grid-gap: 10px
+        background-color: #dadada
+        width: 470px
+        .grid-item 
+            background-color: #ff7b0093
+            font-size: 20px
+            margin: 70px
+            border: 5px solid
+            height: 1550px
+            width: 350px
+            border-radius: 15px
+            box-shadow: 10px 10px 10px black
+            a
+                color: black
+                text-decoration-color: none
+                text-align: center
+    footer
+        background-color: black
+        width: 480px
+        height: 260px
+        margin-top: -30px
+        div
+            ul
+                display: flex
+                justify-content: space-between
+                flex-direction: column
+                margin-top: 20px
+                padding-top: 70px
+                li
+                    font-size: 40px
+                    list-style: none
+                    margin-left: 15%
+                    margin-right: 20%
+                    a
+                        color: white
+                    a:hover
+                        color: blueviolet
+                        i
+                            font-family: Arial, Helvetica, sans-serif
+                        i:hover 
+                            color: blueviolet
+    /*Top*/
+    .div-container
+        background-color:  #b9b9b9
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-right: 20px
+        padding: 50px
+        width: 480px
+        .top
+            h2
+                font-size: 40px
+                color: black
+                border: 1px solid
+                margin-bottom: 64px
+                border-radius: 10px
+                padding: 5px
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                .top1
+                    padding: 10px
+                    margin-right: 0px
+                    text-align: center
+                    #oro:hover
+                        color: gold
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                        text-decoration: underline
+                .top2
+                    padding: 10px
+                    #plata:hover
+                        color: grey
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                        text-decoration: underline
+                .top3
+                    padding: 30px
+                    #bronce:hover
+                        color: #d44e00
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+                        text-decoration: underline
+                .tamaño-img
+                    align-items: center
+                    height: 500px
+                    width: 480px
+/*recomendaciones media*/
+    #fondo-reco
+        text-align: center
+        padding: 80px
+        background-color: #a3a3a39f
+        width: 480px
+        .reco-container
+            display: flex
+            flex-direction: column
+            padding: 50px
+            align-items: center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
